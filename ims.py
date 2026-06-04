@@ -1,5 +1,5 @@
 import mysql.connector as m
-con=m.connect(host='localhost',user='root',passwd='shreya', database='inventory_management_system')
+con=m.connect(host='localhost',user='root',passwd='your_passwd', database='inventory_management_system')
 cur=con.cursor()
 
 role=input("Are you an employee or an admin? ").lower()
